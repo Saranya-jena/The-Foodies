@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url("https://cdn.pixabay.com/photo/2018/03/14/18/45/nest-3225997_1280.jpg");
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.pic {
+    padding: 15px;
+}
+.row{
+    margin-top: 5%;
+    padding-bottom: 3%;
+}
+
+.padding-0{
+    padding-right: 0.5%;
+    padding-left: 0;
+}
+
+#card-header-style{
+    color:#dc3545;
+    font-weight: bold;
+}
+
+
+/*hidden so that it doesnt show before user inputs city*/
+#cuisine_box{
+    visibility: hidden;
+}
